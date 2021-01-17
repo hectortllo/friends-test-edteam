@@ -1,5 +1,7 @@
-<h1>New Friend</h1>
+<div class="container my-5">
+  <h1>New Friend</h1>
 
-<%= render 'form', friend: @friend %>
+  <%= render 'form', friend: @friend %>
 
-<%= link_to 'Back', friends_path %>
+  <button type="button" class="btn btn-success my-2"><%= link_to 'Back', friends_path %>
+</div>
